@@ -1,0 +1,27 @@
+.currency-selector {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.currency-select {
+    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.currency-select:focus {
+    border-color: #409eff;
+    box-shadow: 0 0 12px rgba(64, 158, 255, 0.3);
+}
+
+.currency-dropdown .ant-select-item {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.currency-dropdown .ant-select-item:hover {
+    background-color: #f1f5f9;
+}
